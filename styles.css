@@ -51,6 +51,11 @@ body,
   font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif;
   font-weight:500;
 }
+nav,
+.lang,
+.menu{
+  font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif;
+}
 .caption,
 .position,
 .paper .status,
