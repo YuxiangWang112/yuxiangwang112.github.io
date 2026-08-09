@@ -34,34 +34,34 @@ nav a{font-size:15px}
 .course>span{font-size:17px}
 .cv-item time{font-size:15px}
 
-/* Chinese typography: Source Han Serif for academic text, Source Han Sans for UI. */
-html[lang="zh-CN"] body,
-html[lang="zh-CN"] .research-content{
+/* Shared Chinese-English typography: Source Han Serif for academic text, Source Han Sans for UI. */
+body,
+.research-content{
   font-family:"Source Han Serif SC",Arial,"Microsoft YaHei",sans-serif;
 }
-html[lang="zh-CN"] .brand strong,
-html[lang="zh-CN"] .welcome,
-html[lang="zh-CN"] .profile-name,
-html[lang="zh-CN"] .page-title,
-html[lang="zh-CN"] .section-title,
-html[lang="zh-CN"] .research-heading,
-html[lang="zh-CN"] .paper h3,
-html[lang="zh-CN"] .cv-section h2,
-html[lang="zh-CN"] .course h2{
+.brand strong,
+.welcome,
+.profile-name,
+.page-title,
+.section-title,
+.research-heading,
+.paper h3,
+.cv-section h2,
+.course h2{
   font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif;
   font-weight:500;
 }
-html[lang="zh-CN"] nav,
-html[lang="zh-CN"] .lang,
-html[lang="zh-CN"] .menu,
-html[lang="zh-CN"] .caption,
-html[lang="zh-CN"] .position,
-html[lang="zh-CN"] .contact,
-html[lang="zh-CN"] .muted,
-html[lang="zh-CN"] .paper .status,
-html[lang="zh-CN"] .note,
-html[lang="zh-CN"] .cv-item time,
-html[lang="zh-CN"] .course>span{
+nav,
+.lang,
+.menu,
+.caption,
+.position,
+.contact,
+.muted,
+.paper .status,
+.note,
+.cv-item time,
+.course>span{
   font-family:"Source Han Sans SC",Arial,"Microsoft YaHei",sans-serif;
 }
 
