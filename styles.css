@@ -56,6 +56,12 @@ nav,
 .menu{
   font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif;
 }
+.site-header .brand strong,
+.site-header nav a,
+.site-header .lang,
+.site-header .menu{
+  font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif!important;
+}
 .caption,
 .position,
 .paper .status,
