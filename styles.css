@@ -34,7 +34,7 @@ nav a{font-size:15px}
 .course>span{font-size:17px}
 .cv-item time{font-size:15px}
 
-/* Shared Chinese-English typography: Source Han Serif for academic text, Source Han Sans for UI. */
+/* Shared Chinese-English typography: Source Han Serif throughout the main interface. */
 body,
 .research-content{
   font-family:"Source Han Serif SC",Arial,"Microsoft YaHei",sans-serif;
@@ -51,9 +51,6 @@ body,
   font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif;
   font-weight:500;
 }
-nav,
-.lang,
-.menu,
 .caption,
 .position,
 .paper .status,
