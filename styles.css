@@ -32,6 +32,37 @@ nav a{font-size:15px}
 .lang{font-size:13px;padding:6px 10px}
 .course>span{font-size:17px}
 
+/* Chinese typography: Source Han Serif for academic text, Source Han Sans for UI. */
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] .research-content{
+  font-family:"Source Han Serif SC",Arial,"Microsoft YaHei",sans-serif;
+}
+html[lang="zh-CN"] .brand strong,
+html[lang="zh-CN"] .welcome,
+html[lang="zh-CN"] .profile-name,
+html[lang="zh-CN"] .page-title,
+html[lang="zh-CN"] .section-title,
+html[lang="zh-CN"] .research-heading,
+html[lang="zh-CN"] .paper h3,
+html[lang="zh-CN"] .cv-section h2,
+html[lang="zh-CN"] .course h2{
+  font-family:"Source Han Serif SC",Georgia,"Times New Roman",serif;
+  font-weight:500;
+}
+html[lang="zh-CN"] nav,
+html[lang="zh-CN"] .lang,
+html[lang="zh-CN"] .menu,
+html[lang="zh-CN"] .caption,
+html[lang="zh-CN"] .position,
+html[lang="zh-CN"] .contact,
+html[lang="zh-CN"] .muted,
+html[lang="zh-CN"] .paper .status,
+html[lang="zh-CN"] .note,
+html[lang="zh-CN"] .cv-item time,
+html[lang="zh-CN"] .course>span{
+  font-family:"Source Han Sans SC",Arial,"Microsoft YaHei",sans-serif;
+}
+
 /* Larger home presentation */
 body:has(.home-grid) .wrap{width:min(1080px,calc(100% - 48px))}
 body:has(.home-grid) .page{padding-top:70px}
