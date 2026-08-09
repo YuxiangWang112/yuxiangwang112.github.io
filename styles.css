@@ -31,6 +31,7 @@ nav{gap:32px}
 nav a{font-size:15px}
 .lang{font-size:13px;padding:6px 10px}
 .course>span{font-size:17px}
+.cv-item time{font-size:15px}
 
 /* Chinese typography: Source Han Serif for academic text, Source Han Sans for UI. */
 html[lang="zh-CN"] body,
