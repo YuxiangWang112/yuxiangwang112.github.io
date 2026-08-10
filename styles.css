@@ -82,3 +82,6 @@ body:has(.home-grid) .position{font-size:16px}
 body:has(.home-grid) .bio{font-size:17px;line-height:1.85}
 body:has(.home-grid) .contact{font-size:17px}
 @media(max-width:760px){body:has(.home-grid) .wrap{width:min(100% - 40px,700px)}body:has(.home-grid) .page{padding-top:44px}body:has(.home-grid) .home-grid{grid-template-columns:1fr;gap:42px}body:has(.home-grid) .portrait-col{max-width:230px}body:has(.home-grid) .welcome{font-size:29px}body:has(.home-grid) .profile-name{font-size:25px}body:has(.home-grid) .bio,body:has(.home-grid) .contact{font-size:16px}}
+
+/* Home research-field paragraph without the decorative vertical rule. */
+.field{border-left:0;padding-left:0}
