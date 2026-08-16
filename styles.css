@@ -13,8 +13,8 @@
 .publication-list p,.working-list p{margin:0}
 .publication-title>a,.working-list a,.journal-article{color:#0069d9;text-decoration:none;border:0}
 .publication-title>a:hover,.working-list a:hover,.journal-article:hover{text-decoration:underline}
-.journal-link{color:#222!important;font-style:italic;text-decoration:underline!important;border:0!important}
-.working-journal{font-style:italic;text-decoration:underline;text-underline-offset:2px}
+.journal-link{color:#222!important;font-style:italic;font-weight:600;text-decoration:none!important;border:0!important}
+.working-journal{font-style:italic;font-weight:600;text-decoration:none}
 .working-list article{margin:0 0 27px}
 .working-list strong,.working-list strong a{font-weight:600}
 .paper-status{color:#252525!important;font-size:16px!important;font-style:normal!important;margin-top:3px!important}
