@@ -73,7 +73,7 @@ nav,
 body:has(.home-grid) .wrap{width:min(1080px,calc(100% - 48px))}
 body:has(.home-grid) .page{padding-top:70px}
 body:has(.home-grid) .home-grid{grid-template-columns:190px 1fr;gap:48px}
-body:has(.home-grid) .portrait{aspect-ratio:3/4;object-fit:cover;object-position:12% center}
+body:has(.home-grid) .portrait{aspect-ratio:5/6;object-fit:cover;object-position:12% 20%}
 body:has(.home-grid) .welcome{font-size:34px;margin-bottom:34px}
 body:has(.home-grid) .welcome{display:none}
 body:has(.home-grid) .profile-name{font-size:29px}
