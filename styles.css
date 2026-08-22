@@ -70,7 +70,7 @@ nav,
 }
 
 /* Larger home presentation */
-body:has(.home-grid) .wrap{width:min(1080px,calc(100% - 48px))}
+body:has(.home-grid) .wrap{width:min(960px,calc(100% - 40px))}
 body:has(.home-grid) .page{padding-top:70px}
 body:has(.home-grid) .home-grid{grid-template-columns:190px 1fr;gap:48px}
 body:has(.home-grid) .portrait-col{margin-top:14px}
